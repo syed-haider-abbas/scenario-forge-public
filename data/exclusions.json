@@ -7,79 +7,19 @@
       },
       {
         "fieldId": "category",
-        "valueId": "standard_enrollment_-_partner_pay"
+        "valueId": "standard_enrollment_partner_pay"
       }
     ]
   },
   {
     "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2c"
-      },
-      {
-        "fieldId": "category",
-        "valueId": "standard_enrollment_-_student_pay"
-      }
-    ]
-  },
-  {
-    "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2c"
-      },
-      {
-        "fieldId": "category",
-        "valueId": "standard_enrollment_-_split_pay"
-      }
-    ]
-  },
-  {
-    "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2b"
-      },
-      {
-        "fieldId": "category",
-        "valueId": "standard_enrollment"
-      }
-    ]
-  },
-  {
-    "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2b"
-      },
       {
         "fieldId": "category",
         "valueId": "promo_zero_down_payment"
-      }
-    ]
-  },
-  {
-    "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2b"
       },
       {
-        "fieldId": "category",
-        "valueId": "single_course"
-      }
-    ]
-  },
-  {
-    "when": [
-      {
-        "fieldId": "target",
-        "valueId": "b2b"
-      },
-      {
-        "fieldId": "category",
-        "valueId": "addons"
+        "fieldId": "programinfo_promocode_name",
+        "valueId": "none"
       }
     ]
   }

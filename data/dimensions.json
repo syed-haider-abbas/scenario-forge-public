@@ -16,27 +16,6 @@
     "baseValueId": "b2b"
   },
   {
-    "name": "Category (B2C families)",
-    "fieldId": "category",
-    "allowedValueIds": [
-      "standard_enrollment",
-      "promo_zero_down_payment",
-      "single_course",
-      "addons"
-    ],
-    "baseValueId": "standard_enrollment"
-  },
-  {
-    "name": "Category (B2B families)",
-    "fieldId": "category",
-    "allowedValueIds": [
-      "standard_enrollment_-_partner_pay",
-      "standard_enrollment_-_student_pay",
-      "standard_enrollment_-_split_pay"
-    ],
-    "baseValueId": "standard_enrollment_-_split_pay"
-  },
-  {
     "name": "Payment Method",
     "fieldId": "pricing_fundsource_description",
     "allowedValueIds": [
@@ -47,24 +26,34 @@
     "baseValueId": "pay_in_full"
   },
   {
-    "name": "B2B Liability Split",
-    "fieldId": "programinfo_businesspartner_name",
-    "allowedValueIds": [
-      "b2b_-_0%_student_liability",
-      "b2b_-_50%_student_liability",
-      "b2b_-_100%_student_liability"
-    ],
-    "baseValueId": "b2b_-_50%_student_liability"
-  },
-  {
     "name": "Campus",
     "fieldId": "programinfo_campus_name",
     "allowedValueIds": [
-      "ashworth_career_school",
       "ashworth_college",
+      "ashworth_career_school",
       "james_madison_high_school",
       "penn_foster_college"
     ],
     "baseValueId": "ashworth_college"
+  },
+  {
+    "name": "Promo Code",
+    "fieldId": "programinfo_promocode_name",
+    "allowedValueIds": [
+      "none",
+      "zero_down_payment"
+    ],
+    "baseValueId": "none"
+  },
+  {
+    "name": "Guarantor Relationship",
+    "fieldId": "guarantorinfo_relationshiptostudent",
+    "allowedValueIds": [
+      "none",
+      "parent",
+      "legal_guardian",
+      "other"
+    ],
+    "baseValueId": "none"
   }
 ]
