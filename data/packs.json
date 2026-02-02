@@ -1,0 +1,109 @@
+[
+  {
+    "name": "B2C Smoke Pack",
+    "description": "Anchored over B2C scenario families; varies payment method and campus one-at-a-time from base values.",
+    "dimensions": [
+      {
+        "name": "Target=B2C",
+        "fieldId": "target",
+        "allowedValueIds": [
+          "b2c"
+        ],
+        "baseValueId": "b2c"
+      },
+      {
+        "name": "Category (B2C families)",
+        "fieldId": "category",
+        "allowedValueIds": [
+          "standard_enrollment",
+          "promo_zero_down_payment",
+          "single_course",
+          "addons"
+        ],
+        "baseValueId": "standard_enrollment"
+      },
+      {
+        "name": "Payment Method",
+        "fieldId": "pricing_fundsource_description",
+        "allowedValueIds": [
+          "pay_in_full",
+          "monthly_manual_payment",
+          "monthly_auto_payment"
+        ],
+        "baseValueId": "pay_in_full"
+      },
+      {
+        "name": "Campus",
+        "fieldId": "programinfo_campus_name",
+        "allowedValueIds": [
+          "ashworth_career_school",
+          "ashworth_college",
+          "james_madison_high_school",
+          "penn_foster_college"
+        ],
+        "baseValueId": "ashworth_college"
+      }
+    ],
+    "iterationStrategy": "ANCHORED",
+    "anchorFieldId": "category",
+    "exclusions": []
+  },
+  {
+    "name": "B2B Smoke Pack",
+    "description": "Anchored over B2B scenario families; varies payment method, liability split, and campus one-at-a-time from base values.",
+    "dimensions": [
+      {
+        "name": "Target=B2B",
+        "fieldId": "target",
+        "allowedValueIds": [
+          "b2b"
+        ],
+        "baseValueId": "b2b"
+      },
+      {
+        "name": "Category (B2B families)",
+        "fieldId": "category",
+        "allowedValueIds": [
+          "standard_enrollment_-_partner_pay",
+          "standard_enrollment_-_student_pay",
+          "standard_enrollment_-_split_pay"
+        ],
+        "baseValueId": "standard_enrollment_-_split_pay"
+      },
+      {
+        "name": "Payment Method",
+        "fieldId": "pricing_fundsource_description",
+        "allowedValueIds": [
+          "pay_in_full",
+          "monthly_manual_payment",
+          "monthly_auto_payment"
+        ],
+        "baseValueId": "pay_in_full"
+      },
+      {
+        "name": "B2B Liability Split",
+        "fieldId": "programinfo_businesspartner_name",
+        "allowedValueIds": [
+          "b2b_-_0%_student_liability",
+          "b2b_-_50%_student_liability",
+          "b2b_-_100%_student_liability"
+        ],
+        "baseValueId": "b2b_-_50%_student_liability"
+      },
+      {
+        "name": "Campus",
+        "fieldId": "programinfo_campus_name",
+        "allowedValueIds": [
+          "ashworth_career_school",
+          "ashworth_college",
+          "james_madison_high_school",
+          "penn_foster_college"
+        ],
+        "baseValueId": "ashworth_college"
+      }
+    ],
+    "iterationStrategy": "ANCHORED",
+    "anchorFieldId": "category",
+    "exclusions": []
+  }
+]

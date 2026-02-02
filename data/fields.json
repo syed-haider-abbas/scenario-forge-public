@@ -1,0 +1,1700 @@
+[
+  {
+    "id": "target",
+    "abbreviation": "TARGET",
+    "label": "Target",
+    "categoryId": "enrollment",
+    "csvColumn": "Target",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "b2b",
+        "abbreviation": "B2B",
+        "label": "B2b",
+        "csvValue": "B2b"
+      },
+      {
+        "id": "b2c",
+        "abbreviation": "B2C",
+        "label": "B2c",
+        "csvValue": "B2c"
+      }
+    ]
+  },
+  {
+    "id": "category",
+    "abbreviation": "CATEGO",
+    "label": "Category",
+    "categoryId": "enrollment",
+    "csvColumn": "Category",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "addons",
+        "abbreviation": "ADDONS",
+        "label": "Addons",
+        "csvValue": "Addons"
+      },
+      {
+        "id": "promo_zero_down_payment",
+        "abbreviation": "PROMO ZERO",
+        "label": "Promo Zero Down Payment",
+        "csvValue": "Promo Zero Down Payment"
+      },
+      {
+        "id": "single_course",
+        "abbreviation": "SINGLE COU",
+        "label": "Single Course",
+        "csvValue": "Single Course"
+      },
+      {
+        "id": "standard_enrollment",
+        "abbreviation": "STANDARD E",
+        "label": "Standard Enrollment",
+        "csvValue": "Standard Enrollment"
+      },
+      {
+        "id": "standard_enrollment_-_partner_pay",
+        "abbreviation": "STANDARD E",
+        "label": "Standard Enrollment - Partner Pay",
+        "csvValue": "Standard Enrollment - Partner Pay"
+      },
+      {
+        "id": "standard_enrollment_-_split_pay",
+        "abbreviation": "STANDARD E",
+        "label": "Standard Enrollment - Split Pay",
+        "csvValue": "Standard Enrollment - Split Pay"
+      },
+      {
+        "id": "standard_enrollment_-_student_pay",
+        "abbreviation": "STANDARD E",
+        "label": "Standard Enrollment - Student Pay",
+        "csvValue": "Standard Enrollment - Student Pay"
+      }
+    ]
+  },
+  {
+    "id": "usecase",
+    "abbreviation": "USECAS",
+    "label": "UseCase",
+    "categoryId": "enrollment",
+    "csvColumn": "UseCase",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "auto_pay",
+        "abbreviation": "AUTO PAY",
+        "label": "Auto Pay",
+        "csvValue": "Auto Pay"
+      },
+      {
+        "id": "auto_pay_",
+        "abbreviation": "AUTO PAY ",
+        "label": "Auto Pay ",
+        "csvValue": "Auto Pay "
+      },
+      {
+        "id": "auto_pay_-_guarantor_-_high_school",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - Guarantor - High School",
+        "csvValue": "Auto Pay - Guarantor - High School"
+      },
+      {
+        "id": "auto_pay_-_guarantor_as_legal_guardian_-_high_scho",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - Guarantor As Legal Guardian - High School",
+        "csvValue": "Auto Pay - Guarantor As Legal Guardian - High School"
+      },
+      {
+        "id": "auto_pay_-_guarantor_as_other_-_high_school",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - Guarantor As Other - High School",
+        "csvValue": "Auto Pay - Guarantor As Other - High School"
+      },
+      {
+        "id": "auto_pay_-_guarantor_as_parent_-_high_school",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - Guarantor As Parent - High School",
+        "csvValue": "Auto Pay - Guarantor As Parent - High School"
+      },
+      {
+        "id": "auto_pay_-_no_guarantor_-_high_school",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - No Guarantor - High School",
+        "csvValue": "Auto Pay - No Guarantor - High School"
+      },
+      {
+        "id": "auto_pay_-_no_guarantor_-_no_high_school",
+        "abbreviation": "AUTO PAY -",
+        "label": "Auto Pay - No Guarantor - No High School",
+        "csvValue": "Auto Pay - No Guarantor - No High School"
+      },
+      {
+        "id": "full_pay",
+        "abbreviation": "FULL PAY",
+        "label": "Full Pay",
+        "csvValue": "Full Pay"
+      },
+      {
+        "id": "full_pay_",
+        "abbreviation": "FULL PAY ",
+        "label": "Full Pay ",
+        "csvValue": "Full Pay "
+      },
+      {
+        "id": "full_pay_-_guarantor_-_high_school",
+        "abbreviation": "FULL PAY -",
+        "label": "Full Pay - Guarantor - High School",
+        "csvValue": "Full Pay - Guarantor - High School"
+      },
+      {
+        "id": "standard_pay",
+        "abbreviation": "STANDARD P",
+        "label": "Standard Pay",
+        "csvValue": "Standard Pay"
+      },
+      {
+        "id": "standard_pay_",
+        "abbreviation": "STANDARD P",
+        "label": "Standard Pay ",
+        "csvValue": "Standard Pay "
+      },
+      {
+        "id": "standard_pay_-_guarantor_-_high_school",
+        "abbreviation": "STANDARD P",
+        "label": "Standard Pay - Guarantor - High School",
+        "csvValue": "Standard Pay - Guarantor - High School"
+      }
+    ]
+  },
+  {
+    "id": "eol_domain",
+    "abbreviation": "EOL_DO",
+    "label": "Eol_Domain",
+    "categoryId": "enrollment",
+    "csvColumn": "Eol_Domain",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "ashworthcollege.edu",
+        "abbreviation": "ASHWORTHCO",
+        "label": "ashworthcollege.edu",
+        "csvValue": "ashworthcollege.edu"
+      },
+      {
+        "id": "jmhs.com",
+        "abbreviation": "JMHS.COM",
+        "label": "jmhs.com",
+        "csvValue": "jmhs.com"
+      },
+      {
+        "id": "pennfoster.edu",
+        "abbreviation": "PENNFOSTER",
+        "label": "pennfoster.edu",
+        "csvValue": "pennfoster.edu"
+      }
+    ]
+  },
+  {
+    "id": "enroll_upto_term",
+    "abbreviation": "ENROLL",
+    "label": "Enroll_Upto_Term",
+    "categoryId": "enrollment",
+    "csvColumn": "Enroll_Upto_Term",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "programinfo_campus_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_Campus_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_Campus_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "ashworth_career_school",
+        "abbreviation": "ASHWORTH C",
+        "label": "Ashworth Career School",
+        "csvValue": "Ashworth Career School"
+      },
+      {
+        "id": "ashworth_college",
+        "abbreviation": "ASHWORTH C",
+        "label": "Ashworth College",
+        "csvValue": "Ashworth College"
+      },
+      {
+        "id": "james_madison_high_school",
+        "abbreviation": "JAMES MADI",
+        "label": "James Madison High School",
+        "csvValue": "James Madison High School"
+      },
+      {
+        "id": "penn_foster_college",
+        "abbreviation": "PENN FOSTE",
+        "label": "Penn Foster College",
+        "csvValue": "Penn Foster College"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_programgroup_eol_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_ProgramGroup_Eol_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_ProgramGroup_Eol_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "business",
+        "abbreviation": "BUSINESS",
+        "label": "Business",
+        "csvValue": "Business"
+      },
+      {
+        "id": "healthcare",
+        "abbreviation": "HEALTHCARE",
+        "label": "Healthcare",
+        "csvValue": "Healthcare"
+      },
+      {
+        "id": "high_school",
+        "abbreviation": "HIGH SCHOO",
+        "label": "High School",
+        "csvValue": "High School"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_programlevel_eol_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_ProgramLevel_Eol_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_ProgramLevel_Eol_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "associates_of_science_degree",
+        "abbreviation": "ASSOCIATES",
+        "label": "Associates of Science Degree",
+        "csvValue": "Associates of Science Degree"
+      },
+      {
+        "id": "career_certificate",
+        "abbreviation": "CAREER CER",
+        "label": "Career Certificate",
+        "csvValue": "Career Certificate"
+      },
+      {
+        "id": "career_diploma",
+        "abbreviation": "CAREER DIP",
+        "label": "Career Diploma",
+        "csvValue": "Career Diploma"
+      },
+      {
+        "id": "college_undergraduate_certificate",
+        "abbreviation": "COLLEGE UN",
+        "label": "College Undergraduate Certificate",
+        "csvValue": "College Undergraduate Certificate"
+      },
+      {
+        "id": "high_school_single_course",
+        "abbreviation": "HIGH SCHOO",
+        "label": "High School Single Course",
+        "csvValue": "High School Single Course"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_businesspartner_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_BusinessPartner_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_BusinessPartner_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "b2b_-_0%_student_liability",
+        "abbreviation": "B2B - 0% S",
+        "label": "B2B - 0% Student Liability",
+        "csvValue": "B2B - 0% Student Liability"
+      },
+      {
+        "id": "b2b_-_100%_student_liability",
+        "abbreviation": "B2B - 100%",
+        "label": "B2B - 100% Student Liability",
+        "csvValue": "B2B - 100% Student Liability"
+      },
+      {
+        "id": "b2b_-_50%_student_liability",
+        "abbreviation": "B2B - 50% ",
+        "label": "B2B - 50% Student Liability",
+        "csvValue": "B2B - 50% Student Liability"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_productoffering_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_ProductOffering_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_ProductOffering_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "accounting-asdeg-pfco-promo-tests",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting-ASDEG-PFCO-PROMO-TESTS",
+        "csvValue": "Accounting-ASDEG-PFCO-PROMO-TESTS"
+      },
+      {
+        "id": "accounting-u1045022-awco",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting-U1045022-AWCO",
+        "csvValue": "Accounting-U1045022-AWCO"
+      },
+      {
+        "id": "accounting-u1045022-awco-b2b-cat-1-aw-414",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-414",
+        "csvValue": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-414"
+      },
+      {
+        "id": "accounting-u1045022-awco-b2b-cat-1-aw-925",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-925",
+        "csvValue": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-925"
+      },
+      {
+        "id": "accounting-u1045022-awco-b2b-cat-1-aw-988",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-988",
+        "csvValue": "Accounting-U1045022-AWCO-B2B-CAT-1-AW-988"
+      },
+      {
+        "id": "administrative_assistant-am067522-awca",
+        "abbreviation": "ADMINISTRA",
+        "label": "Administrative Assistant-AM067522-AWCA",
+        "csvValue": "Administrative Assistant-AM067522-AWCA"
+      },
+      {
+        "id": "advanced_medical_coding-ax123222-awca",
+        "abbreviation": "ADVANCED M",
+        "label": "Advanced Medical Coding-AX123222-AWCA",
+        "csvValue": "Advanced Medical Coding-AX123222-AWCA"
+      },
+      {
+        "id": "business_management-ugcert-pfco",
+        "abbreviation": "BUSINESS M",
+        "label": "Business Management-UGCERT-PFCO",
+        "csvValue": "Business Management-UGCERT-PFCO"
+      },
+      {
+        "id": "high_school_single_course-jl031022-jmhs",
+        "abbreviation": "HIGH SCHOO",
+        "label": "High School Single Course-JL031022-JMHS",
+        "csvValue": "High School Single Course-JL031022-JMHS"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_productoffering_eol_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_ProductOffering_Eol_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_ProductOffering_Eol_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "accounting",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting",
+        "csvValue": "Accounting"
+      },
+      {
+        "id": "accounting_a.s._degree",
+        "abbreviation": "ACCOUNTING",
+        "label": "Accounting A.S. Degree",
+        "csvValue": "Accounting A.S. Degree"
+      },
+      {
+        "id": "administrative_assistant",
+        "abbreviation": "ADMINISTRA",
+        "label": "Administrative Assistant",
+        "csvValue": "Administrative Assistant"
+      },
+      {
+        "id": "advanced_medical_coding",
+        "abbreviation": "ADVANCED M",
+        "label": "Advanced Medical Coding",
+        "csvValue": "Advanced Medical Coding"
+      },
+      {
+        "id": "individual_high_school_courses",
+        "abbreviation": "INDIVIDUAL",
+        "label": "Individual High School Courses",
+        "csvValue": "Individual High School Courses"
+      },
+      {
+        "id": "undergraduate_certificate_in_business_management",
+        "abbreviation": "UNDERGRADU",
+        "label": "Undergraduate Certificate In Business Management",
+        "csvValue": "Undergraduate Certificate In Business Management"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_promocode_name",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_PromoCode_Name",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_PromoCode_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "zero_down_payment",
+        "abbreviation": "ZERO DOWN ",
+        "label": "Zero Down Payment",
+        "csvValue": "Zero Down Payment"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_hastransfercredits_yesno",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_HasTransferCredits_YesNo",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_HasTransferCredits_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "no",
+        "abbreviation": "NO",
+        "label": "No",
+        "csvValue": "No"
+      }
+    ]
+  },
+  {
+    "id": "programinfo_ismilitary_yesno",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_IsMilitary_YesNo",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_IsMilitary_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "programinfo_participateinpreevaluation_yesno",
+    "abbreviation": "PROGRA",
+    "label": "ProgramInfo_ParticipateInPreEvaluation_YesNo",
+    "categoryId": "program_info",
+    "csvColumn": "ProgramInfo_ParticipateInPreEvaluation_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "subjects_names_comma_separated",
+    "abbreviation": "SUBJEC",
+    "label": "Subjects_Names_Comma_Separated",
+    "categoryId": "enrollment",
+    "csvColumn": "Subjects_Names_Comma_Separated",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "mathematics|algebra_ii,english|english_3:_college_",
+        "abbreviation": "MATHEMATIC",
+        "label": "Mathematics|Algebra II,English|English 3: College Prep",
+        "csvValue": "Mathematics|Algebra II,English|English 3: College Prep"
+      }
+    ]
+  },
+  {
+    "id": "addons_names_comma_separated",
+    "abbreviation": "ADDONS",
+    "label": "Addons_Names_Comma_Separated",
+    "categoryId": "enrollment",
+    "csvColumn": "Addons_Names_Comma_Separated",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "certification_exam_addon_fee",
+        "abbreviation": "CERTIFICAT",
+        "label": "Certification Exam Addon Fee",
+        "csvValue": "Certification Exam Addon Fee"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_firstname",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_FirstName",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_FirstName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "b2b-0p-stp-ap-ng-whs",
+        "abbreviation": "B2B-0P-STP",
+        "label": "B2B-0P-STP-AP-NG-WHS",
+        "csvValue": "B2B-0P-STP-AP-NG-WHS"
+      },
+      {
+        "id": "b2b-0p-stp-ap-wg-whs",
+        "abbreviation": "B2B-0P-STP",
+        "label": "B2B-0P-STP-AP-WG-WHS",
+        "csvValue": "B2B-0P-STP-AP-WG-WHS"
+      },
+      {
+        "id": "b2b-0p-stp-fp-wg-whs",
+        "abbreviation": "B2B-0P-STP",
+        "label": "B2B-0P-STP-FP-WG-WHS",
+        "csvValue": "B2B-0P-STP-FP-WG-WHS"
+      },
+      {
+        "id": "b2b-0p-stp-sp-wg-whs",
+        "abbreviation": "B2B-0P-STP",
+        "label": "B2B-0P-STP-SP-WG-WHS",
+        "csvValue": "B2B-0P-STP-SP-WG-WHS"
+      },
+      {
+        "id": "b2b-100p-stp-ap-ng-whs",
+        "abbreviation": "B2B-100P-S",
+        "label": "B2B-100P-STP-AP-NG-WHS",
+        "csvValue": "B2B-100P-STP-AP-NG-WHS"
+      },
+      {
+        "id": "b2b-100p-stp-ap-wg-whs",
+        "abbreviation": "B2B-100P-S",
+        "label": "B2B-100P-STP-AP-WG-WHS",
+        "csvValue": "B2B-100P-STP-AP-WG-WHS"
+      },
+      {
+        "id": "b2b-100p-stp-fp-wg-whs",
+        "abbreviation": "B2B-100P-S",
+        "label": "B2B-100P-STP-FP-WG-WHS",
+        "csvValue": "B2B-100P-STP-FP-WG-WHS"
+      },
+      {
+        "id": "b2b-100p-stp-sp-wg-whs",
+        "abbreviation": "B2B-100P-S",
+        "label": "B2B-100P-STP-SP-WG-WHS",
+        "csvValue": "B2B-100P-STP-SP-WG-WHS"
+      },
+      {
+        "id": "b2b-50p-stp-ap-ng-whs",
+        "abbreviation": "B2B-50P-ST",
+        "label": "B2B-50P-STP-AP-NG-WHS",
+        "csvValue": "B2B-50P-STP-AP-NG-WHS"
+      },
+      {
+        "id": "b2b-50p-stp-ap-wg-whs",
+        "abbreviation": "B2B-50P-ST",
+        "label": "B2B-50P-STP-AP-WG-WHS",
+        "csvValue": "B2B-50P-STP-AP-WG-WHS"
+      },
+      {
+        "id": "b2b-50p-stp-fp-wg-whs",
+        "abbreviation": "B2B-50P-ST",
+        "label": "B2B-50P-STP-FP-WG-WHS",
+        "csvValue": "B2B-50P-STP-FP-WG-WHS"
+      },
+      {
+        "id": "b2b-50p-stp-sp-wg-whs",
+        "abbreviation": "B2B-50P-ST",
+        "label": "B2B-50P-STP-SP-WG-WHS",
+        "csvValue": "B2B-50P-STP-SP-WG-WHS"
+      },
+      {
+        "id": "b2c-adp-ap",
+        "abbreviation": "B2C-ADP-AP",
+        "label": "B2C-ADP-AP",
+        "csvValue": "B2C-ADP-AP"
+      },
+      {
+        "id": "b2c-adp-fp",
+        "abbreviation": "B2C-ADP-FP",
+        "label": "B2C-ADP-FP",
+        "csvValue": "B2C-ADP-FP"
+      },
+      {
+        "id": "b2c-adp-sp",
+        "abbreviation": "B2C-ADP-SP",
+        "label": "B2C-ADP-SP",
+        "csvValue": "B2C-ADP-SP"
+      },
+      {
+        "id": "b2c-promo-ap-zdp",
+        "abbreviation": "B2C-PROMO-",
+        "label": "B2C-PROMO-AP-ZDP",
+        "csvValue": "B2C-PROMO-AP-ZDP"
+      },
+      {
+        "id": "b2c-promo-fp-zdp",
+        "abbreviation": "B2C-PROMO-",
+        "label": "B2C-PROMO-FP-ZDP",
+        "csvValue": "B2C-PROMO-FP-ZDP"
+      },
+      {
+        "id": "b2c-promo-sp-zdp",
+        "abbreviation": "B2C-PROMO-",
+        "label": "B2C-PROMO-SP-ZDP",
+        "csvValue": "B2C-PROMO-SP-ZDP"
+      },
+      {
+        "id": "b2c-scp-ap",
+        "abbreviation": "B2C-SCP-AP",
+        "label": "B2C-SCP-AP",
+        "csvValue": "B2C-SCP-AP"
+      },
+      {
+        "id": "b2c-scp-fp",
+        "abbreviation": "B2C-SCP-FP",
+        "label": "B2C-SCP-FP",
+        "csvValue": "B2C-SCP-FP"
+      },
+      {
+        "id": "b2c-scp-sp",
+        "abbreviation": "B2C-SCP-SP",
+        "label": "B2C-SCP-SP",
+        "csvValue": "B2C-SCP-SP"
+      },
+      {
+        "id": "b2c-stp-ap-ng-nhs",
+        "abbreviation": "B2C-STP-AP",
+        "label": "B2C-STP-AP-NG-NHS",
+        "csvValue": "B2C-STP-AP-NG-NHS"
+      },
+      {
+        "id": "b2c-stp-ap-ng-whs",
+        "abbreviation": "B2C-STP-AP",
+        "label": "B2C-STP-AP-NG-WHS",
+        "csvValue": "B2C-STP-AP-NG-WHS"
+      },
+      {
+        "id": "b2c-stp-ap-wgl-whs",
+        "abbreviation": "B2C-STP-AP",
+        "label": "B2C-STP-AP-WGL-WHS",
+        "csvValue": "B2C-STP-AP-WGL-WHS"
+      },
+      {
+        "id": "b2c-stp-ap-wgo-whs",
+        "abbreviation": "B2C-STP-AP",
+        "label": "B2C-STP-AP-WGO-WHS",
+        "csvValue": "B2C-STP-AP-WGO-WHS"
+      },
+      {
+        "id": "b2c-stp-ap-wgp-whs",
+        "abbreviation": "B2C-STP-AP",
+        "label": "B2C-STP-AP-WGP-WHS",
+        "csvValue": "B2C-STP-AP-WGP-WHS"
+      },
+      {
+        "id": "b2c-stp-fp-wg-whs",
+        "abbreviation": "B2C-STP-FP",
+        "label": "B2C-STP-FP-WG-WHS",
+        "csvValue": "B2C-STP-FP-WG-WHS"
+      },
+      {
+        "id": "b2c-stp-sp-wg-whs",
+        "abbreviation": "B2C-STP-SP",
+        "label": "B2C-STP-SP-WG-WHS",
+        "csvValue": "B2C-STP-SP-WG-WHS"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_lastname",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_LastName",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_LastName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "{applicationname}_decoy",
+        "abbreviation": "{APPLICATI",
+        "label": "{applicationName} Decoy",
+        "csvValue": "{applicationName} Decoy"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_email",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_Email",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_Email",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "email.address+s-{seed}@example.org",
+        "abbreviation": "EMAIL.ADDR",
+        "label": "email.address+s-{seed}@example.org",
+        "csvValue": "email.address+s-{seed}@example.org"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_phonenumber",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_PhoneNumber",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_PhoneNumber",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "5555555555",
+        "abbreviation": "5555555555",
+        "label": "5555555555",
+        "csvValue": "5555555555"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_dateofbirth",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_DateOfBirth",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_DateOfBirth",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "01/01/2001",
+        "abbreviation": "01/01/2001",
+        "label": "01/01/2001",
+        "csvValue": "01/01/2001"
+      },
+      {
+        "id": "01/01/2008",
+        "abbreviation": "01/01/2008",
+        "label": "01/01/2008",
+        "csvValue": "01/01/2008"
+      },
+      {
+        "id": "01/01/2010",
+        "abbreviation": "01/01/2010",
+        "label": "01/01/2010",
+        "csvValue": "01/01/2010"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_educationlevel",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_EducationLevel",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_EducationLevel",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "bachelor's_degree",
+        "abbreviation": "BACHELOR'S",
+        "label": "Bachelor's Degree",
+        "csvValue": "Bachelor's Degree"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_country_name",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_Country_Name",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_Country_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "united_states",
+        "abbreviation": "UNITED STA",
+        "label": "United States",
+        "csvValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_isenglishtesttaken_yesno",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_IsEnglishTestTaken_YesNo",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_IsEnglishTestTaken_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "basicinfo_isenglishprimarylanguage_yesno",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_IsEnglishPrimaryLanguage_YesNo",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_IsEnglishPrimaryLanguage_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "basicinfo_address1",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_Address1",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_Address1",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test_street",
+        "abbreviation": "TEST STREE",
+        "label": "Test Street",
+        "csvValue": "Test Street"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_address2",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_Address2",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_Address2",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "basicinfo_city",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_City",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_City",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabaster",
+        "abbreviation": "ALABASTER",
+        "label": "Alabaster",
+        "csvValue": "Alabaster"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_stateprovince_name",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_StateProvince_Name",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_StateProvince_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabama",
+        "abbreviation": "ALABAMA",
+        "label": "Alabama",
+        "csvValue": "Alabama"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_zippostalcode",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_ZipPostalCode",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_ZipPostalCode",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "35007",
+        "abbreviation": "35007",
+        "label": "35007",
+        "csvValue": "35007"
+      }
+    ]
+  },
+  {
+    "id": "basicinfo_ssn_sin",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_SSN_SIN",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_SSN_SIN",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "basicinfo_isaccessibilityrequired_yesno",
+    "abbreviation": "BASICI",
+    "label": "BasicInfo_IsAccessibilityRequired_YesNo",
+    "categoryId": "basic_info",
+    "csvColumn": "BasicInfo_IsAccessibilityRequired_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "no",
+        "abbreviation": "NO",
+        "label": "No",
+        "csvValue": "No"
+      }
+    ]
+  },
+  {
+    "id": "highschoolattestation_nameofschool",
+    "abbreviation": "HIGHSC",
+    "label": "HighSchoolAttestation_NameOfSchool",
+    "categoryId": "high_school",
+    "csvColumn": "HighSchoolAttestation_NameOfSchool",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test_school",
+        "abbreviation": "TEST SCHOO",
+        "label": "Test School",
+        "csvValue": "Test School"
+      }
+    ]
+  },
+  {
+    "id": "highschoolattestation_country_name",
+    "abbreviation": "HIGHSC",
+    "label": "HighSchoolAttestation_Country_Name",
+    "categoryId": "high_school",
+    "csvColumn": "HighSchoolAttestation_Country_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "united_states",
+        "abbreviation": "UNITED STA",
+        "label": "United States",
+        "csvValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "highschoolattestation_stateprovince_name",
+    "abbreviation": "HIGHSC",
+    "label": "HighSchoolAttestation_StateProvince_Name",
+    "categoryId": "high_school",
+    "csvColumn": "HighSchoolAttestation_StateProvince_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabama",
+        "abbreviation": "ALABAMA",
+        "label": "Alabama",
+        "csvValue": "Alabama"
+      }
+    ]
+  },
+  {
+    "id": "highschoolattestation_city",
+    "abbreviation": "HIGHSC",
+    "label": "HighSchoolAttestation_City",
+    "categoryId": "high_school",
+    "csvColumn": "HighSchoolAttestation_City",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabaster",
+        "abbreviation": "ALABASTER",
+        "label": "Alabaster",
+        "csvValue": "Alabaster"
+      }
+    ]
+  },
+  {
+    "id": "highschoolattestation_graduationyear_number",
+    "abbreviation": "HIGHSC",
+    "label": "HighSchoolAttestation_GraduationYear_Number",
+    "categoryId": "high_school",
+    "csvColumn": "HighSchoolAttestation_GraduationYear_Number",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "2023.0",
+        "abbreviation": "2023.0",
+        "label": "2023.0",
+        "csvValue": "2023.0"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_relationshiptostudent",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_RelationshipToStudent",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_RelationshipToStudent",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "legal_guardian",
+        "abbreviation": "LEGAL GUAR",
+        "label": "Legal Guardian",
+        "csvValue": "Legal Guardian"
+      },
+      {
+        "id": "other",
+        "abbreviation": "OTHER",
+        "label": "Other",
+        "csvValue": "Other"
+      },
+      {
+        "id": "parent",
+        "abbreviation": "PARENT",
+        "label": "Parent",
+        "csvValue": "Parent"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_firstname",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_FirstName",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_FirstName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "decoy",
+        "abbreviation": "DECOY",
+        "label": "Decoy",
+        "csvValue": "Decoy"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_lastname",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_LastName",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_LastName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "guarantor",
+        "abbreviation": "GUARANTOR",
+        "label": "Guarantor",
+        "csvValue": "Guarantor"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_dateofbirth",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_DateOfBirth",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_DateOfBirth",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "01/01/1990",
+        "abbreviation": "01/01/1990",
+        "label": "01/01/1990",
+        "csvValue": "01/01/1990"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_email",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_Email",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_Email",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "email.address+g-{seed}@example.org",
+        "abbreviation": "EMAIL.ADDR",
+        "label": "email.address+g-{seed}@example.org",
+        "csvValue": "email.address+g-{seed}@example.org"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_address1",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_Address1",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_Address1",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test_street",
+        "abbreviation": "TEST STREE",
+        "label": "Test Street",
+        "csvValue": "Test Street"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_address2",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_Address2",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_Address2",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "guarantorinfo_phonenumber",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_PhoneNumber",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_PhoneNumber",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "5555555555.0",
+        "abbreviation": "5555555555",
+        "label": "5555555555.0",
+        "csvValue": "5555555555.0"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_country_name",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_Country_Name",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_Country_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "united_states",
+        "abbreviation": "UNITED STA",
+        "label": "United States",
+        "csvValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_stateprovince_name",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_StateProvince_Name",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_StateProvince_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabama",
+        "abbreviation": "ALABAMA",
+        "label": "Alabama",
+        "csvValue": "Alabama"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_city",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_City",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_City",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabaster",
+        "abbreviation": "ALABASTER",
+        "label": "Alabaster",
+        "csvValue": "Alabaster"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_zippostalcode",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_ZipPostalCode",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_ZipPostalCode",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "35007.0",
+        "abbreviation": "35007.0",
+        "label": "35007.0",
+        "csvValue": "35007.0"
+      }
+    ]
+  },
+  {
+    "id": "guarantorinfo_ssn_sin",
+    "abbreviation": "GUARAN",
+    "label": "GuarantorInfo_SSN_SIN",
+    "categoryId": "guarantor",
+    "csvColumn": "GuarantorInfo_SSN_SIN",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "creditcardinfo_nameoncard",
+    "abbreviation": "CREDIT",
+    "label": "CreditCardInfo_NameOnCard",
+    "categoryId": "credit_card",
+    "csvColumn": "CreditCardInfo_NameOnCard",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "decoy_student_{seed}",
+        "abbreviation": "DECOY STUD",
+        "label": "Decoy Student {seed}",
+        "csvValue": "Decoy Student {seed}"
+      }
+    ]
+  },
+  {
+    "id": "creditcardinfo_cardnumber",
+    "abbreviation": "CREDIT",
+    "label": "CreditCardInfo_CardNumber",
+    "categoryId": "credit_card",
+    "csvColumn": "CreditCardInfo_CardNumber",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "4242424242424242.0",
+        "abbreviation": "4242424242",
+        "label": "4242424242424242.0",
+        "csvValue": "4242424242424242.0"
+      }
+    ]
+  },
+  {
+    "id": "creditcardinfo_expirationdate",
+    "abbreviation": "CREDIT",
+    "label": "CreditCardInfo_ExpirationDate",
+    "categoryId": "credit_card",
+    "csvColumn": "CreditCardInfo_ExpirationDate",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "12/29",
+        "abbreviation": "12/29",
+        "label": "12/29",
+        "csvValue": "12/29"
+      }
+    ]
+  },
+  {
+    "id": "creditcardinfo_cvv",
+    "abbreviation": "CREDIT",
+    "label": "CreditCardInfo_CVV",
+    "categoryId": "credit_card",
+    "csvColumn": "CreditCardInfo_CVV",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "123.0",
+        "abbreviation": "123.0",
+        "label": "123.0",
+        "csvValue": "123.0"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_firstname",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_FirstName",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_FirstName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test",
+        "abbreviation": "TEST",
+        "label": "Test",
+        "csvValue": "Test"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_lastname",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_LastName",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_LastName",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test",
+        "abbreviation": "TEST",
+        "label": "Test",
+        "csvValue": "Test"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_country_name",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_Country_Name",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_Country_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "united_states",
+        "abbreviation": "UNITED STA",
+        "label": "United States",
+        "csvValue": "United States"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_stateprovince_name",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_StateProvince_Name",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_StateProvince_Name",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabama",
+        "abbreviation": "ALABAMA",
+        "label": "Alabama",
+        "csvValue": "Alabama"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_address1",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_Address1",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_Address1",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "test_street",
+        "abbreviation": "TEST STREE",
+        "label": "Test Street",
+        "csvValue": "Test Street"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_address2",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_Address2",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_Address2",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "billinginfo_city",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_City",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_City",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "alabaster",
+        "abbreviation": "ALABASTER",
+        "label": "Alabaster",
+        "csvValue": "Alabaster"
+      }
+    ]
+  },
+  {
+    "id": "billinginfo_zippostalcode",
+    "abbreviation": "BILLIN",
+    "label": "BillingInfo_ZipPostalCode",
+    "categoryId": "billing",
+    "csvColumn": "BillingInfo_ZipPostalCode",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "35007.0",
+        "abbreviation": "35007.0",
+        "label": "35007.0",
+        "csvValue": "35007.0"
+      }
+    ]
+  },
+  {
+    "id": "pricing_fundsource_description",
+    "abbreviation": "PRICIN",
+    "label": "Pricing_FundSource_Description",
+    "categoryId": "pricing",
+    "csvColumn": "Pricing_FundSource_Description",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "monthly_auto_payment",
+        "abbreviation": "MONTHLY AU",
+        "label": "Monthly Auto Payment",
+        "csvValue": "Monthly Auto Payment"
+      },
+      {
+        "id": "monthly_manual_payment",
+        "abbreviation": "MONTHLY MA",
+        "label": "Monthly Manual Payment",
+        "csvValue": "Monthly Manual Payment"
+      },
+      {
+        "id": "pay_in_full",
+        "abbreviation": "PAY IN FUL",
+        "label": "Pay in Full",
+        "csvValue": "Pay in Full"
+      }
+    ]
+  },
+  {
+    "id": "pricing_fundsource_eol_description",
+    "abbreviation": "PRICIN",
+    "label": "Pricing_FundSource_Eol_Description",
+    "categoryId": "pricing",
+    "csvColumn": "Pricing_FundSource_Eol_Description",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "monthly_auto_payment",
+        "abbreviation": "MONTHLY AU",
+        "label": "Monthly Auto Payment",
+        "csvValue": "Monthly Auto Payment"
+      },
+      {
+        "id": "monthly_manual_payment",
+        "abbreviation": "MONTHLY MA",
+        "label": "Monthly Manual Payment",
+        "csvValue": "Monthly Manual Payment"
+      },
+      {
+        "id": "pay_in_full",
+        "abbreviation": "PAY IN FUL",
+        "label": "Pay in Full",
+        "csvValue": "Pay in Full"
+      }
+    ]
+  },
+  {
+    "id": "pricing_promocode_name",
+    "abbreviation": "PRICIN",
+    "label": "Pricing_PromoCode_Name",
+    "categoryId": "pricing",
+    "csvColumn": "Pricing_PromoCode_Name",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "pricing_downpayment_number",
+    "abbreviation": "PRICIN",
+    "label": "Pricing_DownPayment_Number",
+    "categoryId": "pricing",
+    "csvColumn": "Pricing_DownPayment_Number",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "130.0",
+        "abbreviation": "130.0",
+        "label": "130.0",
+        "csvValue": "130.0"
+      },
+      {
+        "id": "80.0",
+        "abbreviation": "80.0",
+        "label": "80.0",
+        "csvValue": "80.0"
+      },
+      {
+        "id": "800.0",
+        "abbreviation": "800.0",
+        "label": "800.0",
+        "csvValue": "800.0"
+      }
+    ]
+  },
+  {
+    "id": "pricing_installment_number",
+    "abbreviation": "PRICIN",
+    "label": "Pricing_Installment_Number",
+    "categoryId": "pricing",
+    "csvColumn": "Pricing_Installment_Number",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "100.0",
+        "abbreviation": "100.0",
+        "label": "100.0",
+        "csvValue": "100.0"
+      },
+      {
+        "id": "90.0",
+        "abbreviation": "90.0",
+        "label": "90.0",
+        "csvValue": "90.0"
+      }
+    ]
+  },
+  {
+    "id": "assert_netamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_NetAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_NetAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_downpaymentamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_DownPaymentAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_DownPaymentAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_downpaymentmatchamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_DownPaymentMatchAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_DownPaymentMatchAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_installmentpaymentamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_InstallmentPaymentAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_InstallmentPaymentAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_numberofpayments",
+    "abbreviation": "ASSERT",
+    "label": "Assert_NumberOfPayments",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_NumberOfPayments",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_finalinstallmentpaymentamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_FinalInstallmentPaymentAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_FinalInstallmentPaymentAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_todaypayment_downpaymentamount",
+    "abbreviation": "ASSERT",
+    "label": "Assert_TodayPayment_DownPaymentAmount",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_TodayPayment_DownPaymentAmount",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_todaypayment_salestax",
+    "abbreviation": "ASSERT",
+    "label": "Assert_TodayPayment_SalesTax",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_TodayPayment_SalesTax",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_todaypayment_totalduetoday",
+    "abbreviation": "ASSERT",
+    "label": "Assert_TodayPayment_TotalDueToday",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_TodayPayment_TotalDueToday",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_esignstatus",
+    "abbreviation": "ASSERT",
+    "label": "Assert_EsignStatus",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_EsignStatus",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "readytosign",
+        "abbreviation": "READYTOSIG",
+        "label": "ReadyToSign",
+        "csvValue": "ReadyToSign"
+      }
+    ]
+  },
+  {
+    "id": "assert_esigndate_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_ESignDate_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_ESignDate_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "yes",
+        "abbreviation": "YES",
+        "label": "yes",
+        "csvValue": "yes"
+      }
+    ]
+  },
+  {
+    "id": "assert_esignsigneddate_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_EsignSignedDate_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_EsignSignedDate_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_esigndocumentid_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_EsignDocumentId_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_EsignDocumentId_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_paymentstatus",
+    "abbreviation": "ASSERT",
+    "label": "Assert_PaymentStatus",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_PaymentStatus",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_paymentdate_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_PaymentDate_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_PaymentDate_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_paymenttokenid_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_PaymentTokenId_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_PaymentTokenId_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_authorizationnumber_notempty_yesno",
+    "abbreviation": "ASSERT",
+    "label": "Assert_AuthorizationNumber_NotEmpty_YesNo",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_AuthorizationNumber_NotEmpty_YesNo",
+    "valuePolicy": "enum+custom",
+    "values": []
+  },
+  {
+    "id": "assert_completion_url_eol",
+    "abbreviation": "ASSERT",
+    "label": "Assert_Completion_Url_Eol",
+    "categoryId": "assertions",
+    "csvColumn": "Assert_Completion_Url_Eol",
+    "valuePolicy": "enum+custom",
+    "values": [
+      {
+        "id": "/completed",
+        "abbreviation": "/COMPLETED",
+        "label": "/completed",
+        "csvValue": "/completed"
+      }
+    ]
+  }
+]
